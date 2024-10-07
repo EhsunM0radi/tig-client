@@ -1,0 +1,16 @@
+<script setup lang="ts">
+definePageMeta({ middleware: ["auth"] });
+const loading = ref(false)
+</script>
+
+<template>
+  <NuxtLayout name="app-layout">
+    <Head>
+      <Title>Settings</Title>
+    </Head>
+    
+    <div>
+        Settings
+    </div>
+  </NuxtLayout>
+</template>
